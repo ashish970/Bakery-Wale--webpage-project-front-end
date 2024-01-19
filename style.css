@@ -1,0 +1,455 @@
+body{
+    background: url(./assets/hero-section/banner-1.jpg);
+    background-color: #000000;
+    background-repeat: no-repeat;
+
+}
+
+section{
+    margin: 15px auto;
+    width: 100%;
+}
+.social-icons{
+    align-items: center;
+    word-spacing: 25px;
+}
+.logo{
+    margin-left: 32%;
+}
+.btn-1{
+    margin-left: 25%;
+    border: 2px solid #daa520;
+    background-color: #000000;
+    color:#ffd700;
+    font-size: 14px;
+    width: 17em;
+    height: 4em;
+}
+.btn-1:hover{
+    background-color:#daa520;
+    color: #f5f5f5;
+    transition: 1.5s;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.navbar{
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar a:hover{
+    color: #daa520;
+    transition: 1.5s;
+}
+.text-1{
+    color: #f5f5f5;
+    font-family: "Merienda", cursive;
+    font-size: 4em;
+    margin-top: 13%;
+    margin-left: 10%;
+}
+.btn-2{
+    border: 3px solid #daa520;
+    background-color: #daa520;
+    font-family:cursive;
+    margin-left: 12%;
+    width: 10em;
+    height: 65px;
+    font-size: larger;
+}
+.btn-2:hover{
+    background-color: transparent;
+    color: #f5f5f5;
+    transition: 1s;
+}
+.text-2{
+    color: #f5f5f5;
+    font-family: "Baloo 2", sans-serif;
+    margin-top: 7%;
+    font-size: 45px;
+    text-align: center;
+}
+
+.text-3{
+    color: #daa520;
+    width: 70%;
+    font-size: 17px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    padding: 6%;
+    margin-left: -6%;
+}
+
+.bigbox{
+    width: 100%;
+    margin-top: 7%;
+}
+
+.box-1{
+    float: left;
+    width: 30%;
+    height: 50%;
+    margin-left: 15%;
+}
+
+.box-2{
+    float: right;
+    width: 40%;
+    height: 50%;
+    margin-right: 10%;
+}
+.para-1{
+    color: #f5f5f5;
+    font-family: "Baloo Chettan 2", sans-serif;
+
+}
+.para-2{
+    color: #f5f5f5;
+    font-family: "Baloo Chettan 2", sans-serif;
+}
+
+.container-1{
+    width: 90%;
+    margin-top: 37%;
+    display: flex;
+    margin-left: 7%;
+}
+.card-1{
+    margin: auto;
+}
+.card-1:hover{
+    background-color: #daa520;
+}
+
+.card-2{
+    margin: auto;
+}
+.card-2:hover{
+    background-color: #daa520;
+}
+
+.card-3{
+    margin: auto;
+}
+.card-3:hover{
+    background-color: #daa520;
+}
+
+
+/* video */
+.video-icon{
+    width: 65%;
+    height: 50px;
+    margin-left: 30%;
+}
+
+.text-4{
+    color: #f5f5f5;
+    margin-top: 24%;
+    font-family: "Shantell Sans", cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* reviews of bakery wale */
+.container-2 {
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid goldenrod;
+    display: flex;
+    margin: auto;
+}
+.rev-1{
+    width: 33%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.rev-1 i{
+    color: #ffd700;
+    margin-top: 12%;
+    font-size: 20px;
+}
+
+.rev-2{
+    border: 1px solid #f5f5f559;
+    width: 33%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.rev-2 i{
+    color: #ffd700;
+    margin-top: 12%;
+    font-size: 20px;
+}
+
+.rev-3{
+    width: 33%;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+}
+
+.rev-3 i{
+    color: #ffd700;
+    margin-top: 12%;
+    font-size: 20px;
+}
+
+.container-2{
+    border: 1px solid #f5f5f559;
+}
+
+
+.para-3{
+    color: #f5f5f5;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.para-4{
+    color: #f5f5f5;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.para-5{
+    color: #f5f5f5;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.box-author {
+    font-style: italic;
+    font-size: 12px;
+    color: #ffffff;
+  }
+
+  .text-5{
+    color: #f5f5f5;
+    font-family: "Lemonada", cursive;
+    margin-top: 10%;
+    font-size: 40px;
+    margin-left: 8%;
+  }
+
+  .btn-3{
+    width: 170px;
+    height: 60px;
+    font-size: 15px;
+    background-color:#ffd700;
+    float: right;
+    margin-top: -5.5%;
+    margin-right: 8%;
+    border: 1px solid #daa520;
+  }
+
+  .btn-3:hover{
+    background-color: #000000;
+    color: #f5f5f5;
+    transition: 1s;
+}
+
+.blog{
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+}
+.box-blog-1{
+    display: flex;
+}
+.box-blog-2{
+    display: flex;
+}
+.text-6 {
+    color: #daa520;
+    width: 80%;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 18px;
+    padding: 10%;
+    margin-left: -2%;
+}
+.text-7{
+    color: #daa520;
+    width: 80%;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 18px;
+    padding: 10%;
+    margin-left: -2%;
+}
+
+.para-6{
+    color: #f5f5f5;
+    padding: 8%;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 18px;
+    margin-top: -14%;
+}
+
+.para-7{
+    color: #f5f5f5;
+    padding: 8%;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 18px;
+    margin-top: -14%;
+
+}
+.browse-btn{
+    color: #ffd700;
+    margin: 8%;
+}
+
+.cont-1{
+    border: 1px solid #f5f5f54f;
+}
+.cont-2{
+    border: 1px solid #f5f5f54f;
+}
+
+.container-3{
+    width: 100%;
+}
+.insta h1{
+    color: #f5f5f5;
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    margin-top: 7%;
+    margin-left: 36%;
+}
+
+.btn-4{
+    border: 1.5px solid #ffd700;
+    background-color: #000000;
+    color: #ffd700;
+    margin-left: 43%;
+    width: 14em;
+    height: 55px;
+}
+.fab{
+    padding: 15px;
+    font-size: 15px;
+}
+.pics{
+
+    display: flex;
+    margin: 5%;
+    justify-content: space-around;
+}
+.pic-1:hover{
+    background-color: #daa520;
+}
+.pic-2:hover{
+    background-color: #daa520;
+}
+.pic-3:hover{
+    background-color: #daa520;
+}
+.pic-4:hover{
+    background-color: #daa520;
+}
+
+.footimg nav{
+    float: right;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+.footimg nav a{
+    text-decoration: none;
+    color: #f5f5f5;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footimg img{
+    margin-top: 3%;
+    margin-left: 7%;
+}
+hr{
+    border: 1px solid #ffffff57;
+    margin-top: 2%;
+    width: 80em;
+}
+.container-5{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-para{
+    color: #f5f5f5;
+}
+.para-8{
+    float: left;
+    margin-left: 7.5%;
+    margin-top: 3%;
+}
+.footer-para img{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.footer-para h4{
+    margin-left: 59%;
+    margin-top: 1%;
+    color: #ffd700;
+}
+.para-9{
+    margin-left: 59%;
+}
+
+.btn-5{
+    background-color: #000000;
+    color: #f5f5f5;
+    margin-left: 8%;
+    width: 10em;
+    border: 1px solid #f5f5f549;
+}
+.btn-5:hover{
+    color: #ffd700;
+    transition: 1.5s;
+}
+.btn-6{
+    background-color: #000000;
+    color: #f5f5f5;
+    width: 10em;
+    border: 1px solid #f5f5f549;
+}
+.btn-6:hover{
+    color: #ffd700;
+    transition: 1.5s;
+}
+.btn-7{
+    background-color: #000000;
+    color: #f5f5f5;
+    width: 10em;
+    border: 1px solid #f5f5f549;
+}
+.btn-7:hover{
+    color: #ffd700;
+    transition: 1.5s;
+}
+.container-5 hr{
+    border: 1px solid #ffffff57;
+    margin-top: 2%;
+    width: 80em;
+}
+.copyright{
+    color: #f5f5f5;
+    text-align: center;
+}
+
+
+
